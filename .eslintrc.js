@@ -1,3 +1,13 @@
 module.exports = {
-  'env': 
-}
+ 'env': {
+   'browser': true,
+   'es6': true,
+ },
+ 'extends': [
+   'plugin:react/recommended',
+   'eslint-config-wolox',
+ ],
+ 'plugins': [
+   'react'
+ ]
+};
